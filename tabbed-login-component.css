@@ -1,0 +1,25 @@
+
+.ml-buttonsContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px
+}
+
+button.ml-btn-tab {
+    width: 100%;
+    background-color: #fff;
+    padding: .8em 1em;
+    font-family: proximanova, helvetica neue, Helvetica, Arial, Sans-Serif;
+    letter-spacing: 2px;
+    border: none;
+    border: 1px solid #333
+}
+
+button.ml-btn-tab.active {
+    background-color: #333;
+    width: 100%;
+    padding: .8em 1em;
+    font-family: proximanova, helvetica neue, Helvetica, Arial, Sans-Serif;
+    letter-spacing: 2px;
+    color: #fff
+}

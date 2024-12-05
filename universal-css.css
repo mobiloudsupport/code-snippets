@@ -1,0 +1,133 @@
+body > footer,
+body > footer.relative,
+body > main > footer,
+body > .main-content > footer,
+div#main-content > footer,
+body  .shopify-section.shopify-section-group-footer-group,
+div#shopify-section-footer,
+footer.site-footer,
+.page > footer {
+display: none !important
+}
+
+/*this is a special case for the compay store, can be replaced upon testing with "body main footer"*/
+
+main vc\\:header footer {display: none !important}
+
+/*Some sites use this class for the footer, but also can affect some undesired elements*/
+
+div.footer {
+    display: none !important;
+}
+
+/*Special class for puzzle warehouse*/
+
+body .container .copyright {
+    display: none !important;
+}
+
+/*Promotional banners/sections (shopify usually uses this classes):*/
+
+.needsclick  {
+display: none !important
+}
+
+.header-banner {
+    display: none !important;
+}
+
+.announcement-bar { display: none; }
+
+
+
+/*cookie consent / modals unlocks body scroll*/
+
+div#coiOverlay {
+    display: none !important;
+}
+
+html.o-html.noScroll, html.noScroll body {
+    overflow-y: unset !important;
+}
+
+.modal-backdrop {
+    display: none !important;
+}
+
+body.modal-open {
+    overflow: unset !important;
+    padding: 0 !important;
+}
+
+
+/*Floating elements (chat widgets, translate buttons) this ids varies and and not always the same, this can potentially hide unwanted areas:
+*/
+iframe[id *= launcher],
+iframe[id *= widget],
+iframe[id *= chat],
+iframe[id *= translate] {
+display: none !important
+}
+
+
+
+/*Some comments floating elements created by plugins:*/
+
+div#zonos { display: none !important; } 
+div#smile-ui-container { display: none !important; } 
+div#pb-ticker { display: none; }
+div#shopify-chat { display: none; }
+div#tolstoyWidgetElement { display: none; }
+div#gorgias-chat-container { display: none; }
+iframe#loyaltylion-notifications-frame { display: none !important; }
+iframe#loyaltylion-beacon-frame { display: none !important; }
+.grecaptcha-badge { display: none !important; }
+.osano-cm-window__widget, .osano-cm-widget {
+    display: none !important;
+}
+div#shop-hcaptcha-badge-container { display: none !important; }
+div#be-chat-container {
+    display: none !important;
+}
+
+div#onesignal-slidedown-container {
+    display: none !important;
+}
+iframe#hfc-frame {
+    display: none !important;
+}
+
+div#onetrust-consent-sdk {
+    display: none !important;
+}
+
+.globale_popup_wrapper, div#globalePopupWrapper {
+    display: none !important
+}
+
+div#globale_overlay, div.globale_overlay {
+    display: none !important;
+}
+
+
+div#ltkpopup-container, .simpleltkmodal-container {
+    display: none !important;
+}
+
+div#ltkpopup-overlay, .simpleltkmodal-overlay {
+    display: none !important;
+}
+
+div#ltkPopupButtonTriggerContainer {
+    display: none !important;
+}
+
+/*Hide wp admin nav:*/
+
+div#wpadminbar { display: none !important; } html { margin: 0 !important }
+
+/*cookie consent*/
+
+div[aria-label*="cookie"] {
+    display: none !important;
+}

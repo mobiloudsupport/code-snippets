@@ -131,3 +131,8 @@ div#wpadminbar { display: none !important; } html { margin: 0 !important }
 div[aria-label*="cookie"] {
     display: none !important;
 }
+
+/*cookie consent from shopify*/
+section#shopify-pc__banner, shopify-pc__banner__dialog {
+    display: none !important;
+}

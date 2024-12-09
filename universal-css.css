@@ -6,7 +6,9 @@ div#main-content > footer,
 body  .shopify-section.shopify-section-group-footer-group,
 div#shopify-section-footer,
 footer.site-footer,
-.page > footer {
+.page > footer,
+body > div > footer,
+div#gatsby-focus-wrapper > footer {
 display: none !important
 }
 
@@ -28,7 +30,7 @@ body .container .copyright {
 
 /*Promotional banners/sections (shopify usually uses this classes):*/
 
-.needsclick  {
+div > .needsclick  {
 display: none !important
 }
 
@@ -38,6 +40,28 @@ display: none !important
 
 .announcement-bar { display: none; }
 
+.shopify-section.shopify-section-group-header-group.announcement-bar-section {
+    display: none !important;
+}
+
+header .header-topbar {
+    display: none !important;
+}
+
+.shopify-section.shopify-section-group-header-group .cc-announcement {
+    display: none !important;
+}
+
+.dbtfy-announcement-bar {
+    display: none !important;
+}
+.wol-top-promo-bar {
+    display: none !important;
+}
+
+div#promoBannerRoot, div.promo-banner {
+    display: none !important;
+}
 
 
 /*cookie consent / modals unlocks body scroll*/
@@ -59,6 +83,15 @@ body.modal-open {
     padding: 0 !important;
 }
 
+
+/*Other modal hiders, dont mess with scroll*/
+div#shopify-section-newsletter-popup {
+    display: none !important;
+}
+
+div:has(> .recommendation-modal__container) {
+    display: none !important
+}
 
 /*Floating elements (chat widgets, translate buttons) this ids varies and and not always the same, this can potentially hide unwanted areas:
 */
@@ -122,6 +155,33 @@ div#ltkPopupButtonTriggerContainer {
     display: none !important;
 }
 
+div#bc-livechat-container {
+    display: none !important;
+}
+
+div#ea-auto-translate-root, .ea-auto-translate {
+    display: none !important;
+}
+.oke-reviewsTab {
+    display: none !important;
+}
+
+.tl-switcher-container, .tl-switcher.tl-language {
+    display: none !important;
+}
+
+.mcforms-wrapper.needsclick{
+    display: none !important
+}
+/* Iframe floating button, WARNING mught hide unwanted areas*/
+
+div > div > div> iframe {
+    display: none !important;
+}
+
+.wa__widget_container {
+    display: none !important;
+}
 /*Hide wp admin nav:*/
 
 div#wpadminbar { display: none !important; } html { margin: 0 !important }
@@ -134,5 +194,14 @@ div[aria-label*="cookie"] {
 
 /*cookie consent from shopify*/
 section#shopify-pc__banner, shopify-pc__banner__dialog {
+    display: none !important;
+}
+.cookiefirst-root {
+    display: none !important
+}
+
+/*Back To Top Button*/
+
+back-to-top, .back-to-top {
     display: none !important;
 }

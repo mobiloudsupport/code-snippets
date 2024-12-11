@@ -1,0 +1,3 @@
+/*Hide wp admin nav:*/
+
+div#wpadminbar { display: none !important; } html { margin: 0 !important }

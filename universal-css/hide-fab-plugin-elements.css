@@ -1,0 +1,89 @@
+/*Floating elements (chat widgets, translate buttons) this ids varies and and not always the same, this can potentially hide unwanted areas:
+*/
+iframe[id *= launcher],
+iframe[id *= widget],
+iframe[id *= chat],
+iframe[id *= translate] {
+display: none !important
+}
+
+
+
+/*Some comments floating elements created by plugins:*/
+
+div#zonos { display: none !important; } 
+div#smile-ui-container { display: none !important; } 
+div#pb-ticker { display: none; }
+div#shopify-chat { display: none; }
+div#tolstoyWidgetElement { display: none; }
+div#gorgias-chat-container { display: none; }
+iframe#loyaltylion-notifications-frame { display: none !important; }
+iframe#loyaltylion-beacon-frame { display: none !important; }
+.grecaptcha-badge { display: none !important; }
+.osano-cm-window__widget, .osano-cm-widget {
+    display: none !important;
+}
+div#shop-hcaptcha-badge-container { display: none !important; }
+div#be-chat-container {
+    display: none !important;
+}
+
+div#onesignal-slidedown-container {
+    display: none !important;
+}
+iframe#hfc-frame {
+    display: none !important;
+}
+
+div#onetrust-consent-sdk {
+    display: none !important;
+}
+
+.globale_popup_wrapper, div#globalePopupWrapper {
+    display: none !important
+}
+
+div#globale_overlay, div.globale_overlay {
+    display: none !important;
+}
+
+
+div#ltkpopup-container, .simpleltkmodal-container {
+    display: none !important;
+}
+
+div#ltkpopup-overlay, .simpleltkmodal-overlay {
+    display: none !important;
+}
+
+div#ltkPopupButtonTriggerContainer {
+    display: none !important;
+}
+
+div#bc-livechat-container {
+    display: none !important;
+}
+
+div#ea-auto-translate-root, .ea-auto-translate {
+    display: none !important;
+}
+.oke-reviewsTab {
+    display: none !important;
+}
+
+.tl-switcher-container, .tl-switcher.tl-language {
+    display: none !important;
+}
+
+.mcforms-wrapper.needsclick{
+    display: none !important
+}
+/* Iframe floating button, WARNING mught hide unwanted areas*/
+
+div > div > div> iframe {
+    display: none !important;
+}
+
+.wa__widget_container {
+    display: none !important;
+}

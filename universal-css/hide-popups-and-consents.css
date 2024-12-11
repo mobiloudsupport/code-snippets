@@ -1,0 +1,47 @@
+/*class used in shopify sites*/
+
+div > .needsclick  {
+    display: none !important
+    }
+    
+/*cookie consent / modals unlocks body scroll*/
+
+    div#coiOverlay {
+        display: none !important;
+    }
+    
+    html.o-html.noScroll, html.noScroll body {
+        overflow-y: unset !important;
+    }
+    
+    .modal-backdrop {
+        display: none !important;
+    }
+    
+    body.modal-open {
+        overflow: unset !important;
+        padding: 0 !important;
+    }
+    
+    /*Other modal hiders, dont mess with scroll*/
+div#shopify-section-newsletter-popup {
+    display: none !important;
+}
+
+div:has(> .recommendation-modal__container) {
+    display: none !important
+}
+
+/*cookie consent*/
+
+div[aria-label*="cookie"] {
+    display: none !important;
+}
+
+/*cookie consent from shopify*/
+section#shopify-pc__banner, shopify-pc__banner__dialog {
+    display: none !important;
+}
+.cookiefirst-root {
+    display: none !important
+}

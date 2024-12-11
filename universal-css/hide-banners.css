@@ -1,0 +1,30 @@
+/*Promotional banners/sections (shopify usually uses this classes):*/
+
+    .header-banner {
+        display: none !important;
+    }
+    
+    .announcement-bar { display: none; }
+    
+    .shopify-section.shopify-section-group-header-group.announcement-bar-section {
+        display: none !important;
+    }
+    
+    header .header-topbar {
+        display: none !important;
+    }
+    
+    .shopify-section.shopify-section-group-header-group .cc-announcement {
+        display: none !important;
+    }
+    
+    .dbtfy-announcement-bar {
+        display: none !important;
+    }
+    .wol-top-promo-bar {
+        display: none !important;
+    }
+    
+    div#promoBannerRoot, div.promo-banner {
+        display: none !important;
+    }

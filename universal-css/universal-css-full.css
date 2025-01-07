@@ -173,6 +173,16 @@ div#ea-auto-translate-root, .ea-auto-translate {
 .mcforms-wrapper.needsclick{
     display: none !important
 }
+
+/*hide bik chatbot*/
+
+div#bik-chat-root {
+    display: none !important;
+}
+
+div#attentive_overlay {
+    display: none !important;
+}
 /* Iframe floating button, WARNING mught hide unwanted areas*/
 
 div > div > div> iframe {

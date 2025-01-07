@@ -87,3 +87,13 @@ div > div > div> iframe {
 .wa__widget_container {
     display: none !important;
 }
+
+/*hide bik chatbot*/
+
+div#bik-chat-root {
+    display: none;
+}
+
+div#attentive_overlay {
+    display: none !important;
+}
